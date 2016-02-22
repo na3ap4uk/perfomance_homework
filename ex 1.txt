@@ -1,0 +1,16 @@
+1. analyze http://google.com/ by Google Developer Tools
+hw expected result: txt report with research information (what performance optimization ways are used?)
+
+- DOMContentLoaded in 719 ms
+- 21 requests loaded info from cache 
+- 61.5 KB transfered
+- only 2 documents have weight more than 1KB (document - 60KB & JSON)
+- In Timeline tool we can see very little rendering in time (0.88%)
+- we have no URL redirects
+- little number of DOM elements
+- CSS put at top
+- CSS and JS are minified: less spaces in code
+- only 1 image scaled down
+- JS put at bottom
+- no empty src or href
+- gzip compression was used

@@ -1,0 +1,2 @@
+3. implement a non-optimized web page (single-file) with as much possible bugs (slow queries, fake ajax request, wrong image links, etc)
+hw expected result: txt report with bugs & descriptions

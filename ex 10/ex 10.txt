@@ -1,0 +1,2 @@
+10. read about data uri, and use image base64
+hw expected result: html/css files with data-image inline of html and in css (2 images should be used)

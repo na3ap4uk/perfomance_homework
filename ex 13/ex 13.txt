@@ -1,0 +1,5 @@
+13. use image sprite
+hw expected result: an Angular image should be displayed
+use http://cursor.education/assets/sprites-icons.png with background-position
+
+background-position: -395px -140px;

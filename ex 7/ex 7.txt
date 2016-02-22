@@ -1,0 +1,2 @@
+7. play with localStorage
+hw expected result: html/js page with counter (data should be stored in localStorage). Counter should be incremented after each page reload

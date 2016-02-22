@@ -1,0 +1,15 @@
+body{
+	width: 800px;
+	font-family: Verdana;
+}
+.demo {
+    background-color: yellow;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 24px;
+    height: 500px;
+    width: 500px;
+    color: blue;
+    border: 5px solid black;
+    border-radius: 10%;
+}

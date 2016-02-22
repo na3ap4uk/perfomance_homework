@@ -1,0 +1,11 @@
+
+
+10. Play with sessionStorage
+hw expected result: made an login & logout page (input[name=login] & input[name=password]) for user (login=admin, password=123), and save authetification state in sessionStorage. Try to reload browser, close/open tab.
+
+
+
+
+
+
+

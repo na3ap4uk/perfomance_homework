@@ -1,0 +1,6 @@
+5. use "DOMContentLoaded" & "onload" events
+hw expected result: html/js files & description about diffs between events
+
+
+DOMContentLoaded – will works when browser fully downloaded and created DOM tree(some images was not downloaded for example and it will wait);
+onload - when browser downloaded all resources;

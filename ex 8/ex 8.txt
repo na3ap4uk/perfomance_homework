@@ -1,0 +1,3 @@
+8. add expiring ((new Date).getTime()) for localStorage data
+hw expected result: html/js page with counter, that stored in localStorage, and reset every 10 seconds
+hw points: 3

@@ -1,0 +1,9 @@
+The Accept-Encoding request-header field is similar to Accept, but restricts the content-codings that are acceptable in the response.
+Examles:
+Accept-Encoding: compress, gzip
+Accept-Encoding: *
+Accept-Encoding: compress;q=0.5, gzip;q=1.0
+Accept-Encoding: gzip;q=1.0, identity; q=0.5, *;q=0
+
+qvalue of 0 means "not acceptable.")
+"*" symbol matches any available content-coding

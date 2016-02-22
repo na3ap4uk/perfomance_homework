@@ -1,0 +1,2 @@
+6. use media="print" for "link" tag
+hw expected result: html/js file with styles for print-page

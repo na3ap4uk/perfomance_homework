@@ -1,0 +1,6 @@
+14. what is wrong <img src="" /> ?
+hw expected result: a txt file with answer
+
+In this case another request will be done to my server(image will make request for a document). 
+Browsers will make requests for a folder higher (IE) or to the actual page(Safari, CHrome) to fill in the img. Firefox and Opera will ignore this bug. 
+My traffic will increase and I will need more computing power for genarating homepage.

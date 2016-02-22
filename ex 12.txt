@@ -1,0 +1,6 @@
+12. read about gzip/deflate
+hw expected result: what is difference? a txt file.
+
+
+Deflate is a compression method and compressed data format. There is no additional information in a deflate stream such as file names, check values, etc. It is encoding of a string of bytes. 
+Gzip is a wrapper for the deflate format. It provides those missing items mentioned, such as file name, modification time, and check values. Only one deflate stream can be present in a gzip stream, and so effectively can represent only one file.

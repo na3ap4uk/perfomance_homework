@@ -1,0 +1,12 @@
+body {
+    width: 800px;
+    font-family: Verdana;
+}
+
+.demo {
+    text-align: left;
+    font-family: tahoma;
+    font-size: 12px;
+    font-style: italic;
+    color: black;
+}

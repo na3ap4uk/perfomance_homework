@@ -1,0 +1,68 @@
+1.
+- DOMContentLoaded in 719 ms
+- 21 requests loaded info from cache 
+- 61.5 KB transfered
+- only 2 documents have weight more than 1KB (document - 60KB & JSON)
+- In Timeline tool we can see very little rendering in time (0.88%)
+- we have no URL redirects
+- little number of DOM elements
+- CSS put at top
+- CSS and JS are minified: less spaces in code
+- only 1 image scaled down
+- JS put at bottom
+- no empty src or href
+- gzip compression was used
+
+2.
+According to YSlow, webpagetest and PageSpeed:
+
+- the page has a total of 9 HTTP requests and a total weight of 331.2K bytes with empty cache
+- avoiding empty src or href
+- zipping files (css, js)
+- CSS at top
+- JavaScript at bottom
+- avoided CSS expressions
+- reduce DNS lookups
+- minified JavaScript and CSS
+- avoided URL redirects
+- no duplicate JavaScript and CSS
+- configured entity tags (ETags)
+- AJAX is cacheable
+- GET for AJAX requests was used
+- the number of DOM elements is minified
+- HTTP 404 (Not Found) error avoided
+- reduced cookie size
+- AlphaImageLoader filter avoided
+- favicon small and cacheable
+
+YSlow is good as application for browser, can be used from the current page session, and gives own results for a list of perfomance rules. It also gives own marks for according to every rule.
+PageSpeed. This tool has one good property - it exemines code for mobile&computers websites perfomance. It also will give you own marks and advices. It is simple. Language interface according to your localization. 
+Webpagetest much more information about your page. You can see your page result in details in different schdules. 
+
+3.
+
+Created page with bugs:
+
+- non optimized image
+- image with fake src
+- js code on top
+- jquery lounched but never used
+- the same css
+
+4.
+
+
+
+
+
+
+
+
+
+
+5.
+
+DOMContentLoaded – will works when browser fully downloaded and created DOM tree(some images was not downloaded for example and it will wait);
+onload - when browser downloaded all resources;
+
+6. 
